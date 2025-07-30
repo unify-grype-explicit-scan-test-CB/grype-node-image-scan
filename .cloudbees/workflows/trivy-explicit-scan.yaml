@@ -21,4 +21,4 @@ jobs:
       - name: Scan with Trivy
         uses: cloudbees-io/trivy-plugin@v2
         with:
-          binary-tar-path: ./node-18.tar
+          binary-tar-path: ./node18.tar
